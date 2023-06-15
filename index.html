@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-blue-500 py-4">
+      <div class="container mx-auto px-4 flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <h1 class="text-white text-2xl font-bold">Blog Website</h1>
+        </div>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="text-white hover:underline">Home</a></li>
+            <li>
+              <a href="#Blogs" class="text-white hover:underline">Blogs</a>
+            </li>
+            <li><a href="#News" class="text-white hover:underline">News</a></li>
+            <li>
+              <a href="#Events" class="text-white hover:underline">Events</a>
+            </li>
+            <li><a href="#Jobs" class="text-white hover:underline">Jobs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto py-8 px-4">
+      <section class="mb-8">
+        <div class="w-full">
+          <img
+            src="hero.jpg"
+            alt="Hero Image"
+            class="w-full h-auto rounded-lg"
+          />
+        </div>
+      </section>
+
+      <section id="Blogs" class="mb-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div class="bg-white rounded-lg p-4">
+            <img
+              src="tech.jpg"
+              alt="Blog Segment 1"
+              class="w-full h-auto rounded-lg mb-4"
+            />
+            <h2 class="text-xl font-bold mb-2">Technology Blog</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget
+              erat a turpis commodo blandit. Proin eleifend efficitur eros,
+              vitae tempus enim fringilla et.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Read more</a>
+          </div>
+          <div class="bg-white rounded-lg p-4">
+            <img
+              src="nature.jpg"
+              alt="Blog Segment 2"
+              class="w-full h-auto rounded-lg mb-4"
+            />
+            <h2 class="text-xl font-bold mb-2">Nature Blog</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget
+              erat a turpis commodo blandit. Proin eleifend efficitur eros,
+              vitae tempus enim fringilla et.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Read more</a>
+          </div>
+          <div class="bg-white rounded-lg p-4">
+            <img
+              src="travel.jpg"
+              alt="Blog Segment 3"
+              class="w-full h-auto rounded-lg mb-4"
+            />
+            <h2 class="text-xl font-bold mb-2">Travel Blog</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget
+              erat a turpis commodo blandit. Proin eleifend efficitur eros,
+              vitae tempus enim fringilla et.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="News" class="mb-8">
+        <div class="bg-white rounded-lg p-4">
+          <h2 class="text-2xl font-bold mb-4">Latest News</h2>
+          <ul class="list-disc pl-4">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>
+              Proin eleifend efficitur eros, vitae tempus enim fringilla et.
+            </li>
+            <li>Nulla ac enim ac est ullamcorper fermentum.</li>
+            <li>
+              Suspendisse potenti. Nunc efficitur risus at justo vestibulum
+              cursus.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="Events" class="mb-8">
+        <div class="bg-white rounded-lg p-4">
+          <h2 class="text-2xl font-bold mb-4">Upcoming Events</h2>
+          <ul class="list-disc pl-4">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>
+              Proin eleifend efficitur eros, vitae tempus enim fringilla et.
+            </li>
+            <li>Nulla ac enim ac est ullamcorper fermentum.</li>
+            <li>
+              Suspendisse potenti. Nunc efficitur risus at justo vestibulum
+              cursus.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="Jobs" class="mb-8">
+        <div class="bg-white rounded-lg p-4">
+          <h2 class="text-2xl font-bold mb-4">Latest Jobs</h2>
+          <ul class="list-disc pl-4">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>
+              Proin eleifend efficitur eros, vitae tempus enim fringilla et.
+            </li>
+            <li>Nulla ac enim ac est ullamcorper fermentum.</li>
+            <li>
+              Suspendisse potenti. Nunc efficitur risus at justo vestibulum
+              cursus.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-blue-500 py-4">
+      <div class="container mx-auto px-4 text-white text-center">
+        <p>&copy; 2023 Blog Website. All rights reserved.</p>
+        <ul class="flex justify-center space-x-4 mt-4">
+          <li><a href="#" class="hover:underline">Terms of Service</a></li>
+          <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
